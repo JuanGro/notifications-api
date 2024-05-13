@@ -6,6 +6,7 @@ export default class User {
     public name: string,
     public email: string,
     public phoneNumber: string,
+    public deviceId: string,
     public subscribed: Category[],
     public channels: Channel[]
   ) {}
