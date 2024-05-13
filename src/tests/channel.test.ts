@@ -1,6 +1,6 @@
 import { server } from "..";
 import { channelsData } from "../.data/channels.data";
-import database, { client } from "../config/mongodb.connection";
+import database, { client } from "../config/database.connection";
 
 describe("Channels", () => {
   afterAll(async () => {

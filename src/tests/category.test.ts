@@ -1,6 +1,6 @@
 import request from "supertest";
 import app, { server } from "..";
-import database, { client } from "../config/mongodb.connection";
+import database, { client } from "../config/database.connection";
 import { categoriesData } from "../.data/categories.data";
 
 describe("Categories", () => {

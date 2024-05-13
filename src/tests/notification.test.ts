@@ -1,5 +1,5 @@
 import request from "supertest";
-import database, { client } from "../config/mongodb.connection";
+import database, { client } from "../config/database.connection";
 import app, { server } from "..";
 import { usersData } from "../.data/users.data";
 import { categoriesData } from "../.data/categories.data";
