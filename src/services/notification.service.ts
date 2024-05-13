@@ -41,9 +41,9 @@ export const createNotification = (
     case "E-Mail":
       const email: Email = {
         ...notification,
-        sender: "sender@gmail.com",
+        sender: "sender@sample.com",
         receiver: user.email,
-        subject: "Notification",
+        subject: "Sample subject",
         body: notification.message,
       };
       newNotification = email;
@@ -51,7 +51,7 @@ export const createNotification = (
     case "SMS":
       const sms: Sms = {
         ...notification,
-        sender: "323",
+        sender: "sample number",
         receiver: user.phoneNumber,
       };
       newNotification = sms;
